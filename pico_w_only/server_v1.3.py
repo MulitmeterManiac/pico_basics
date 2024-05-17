@@ -196,7 +196,7 @@ while True:
     
     
     try:
-        #time_update()
+        
         conn, addr = server.accept()
         request = conn.recv(1024)
         request = str(request)
